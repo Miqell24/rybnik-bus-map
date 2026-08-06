@@ -1,0 +1,5269 @@
+{
+  "generatedAt": "2026-08-06T13:58:48.838Z",
+  "bbox": [
+    18.222208,
+    49.871177,
+    18.788626,
+    50.198255
+  ],
+  "badgeBands": [
+    [
+      13,
+      13.6
+    ],
+    [
+      13.6,
+      14.4
+    ],
+    [
+      14.4,
+      15.5
+    ],
+    [
+      15.5,
+      16.8
+    ],
+    [
+      16.8,
+      22
+    ]
+  ],
+  "modes": [
+    {
+      "mode": "bus",
+      "label": "buses",
+      "color": "#0059a9"
+    }
+  ],
+  "lines": [
+    {
+      "line": "01",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŻOŁNIERZY WRZEŚNIA przez: Stodolną",
+          "variants": 1,
+          "tripCount": 94,
+          "stops": 23,
+          "lengthKm": 11.21,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0183280870989226,
+            "roundaboutSegs": 88,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADLIN p. Niewiadom",
+          "variants": 1,
+          "tripCount": 146,
+          "stops": 27,
+          "lengthKm": 18.82,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.987920936795486,
+            "roundaboutSegs": 100,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JEJKOWICE p. Niedobczyce",
+          "variants": 1,
+          "tripCount": 146,
+          "stops": 30,
+          "lengthKm": 19.94,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.403281592224873,
+            "roundaboutSegs": 83,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "02",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŻOŁNIERZY WRZEŚNIA przez: Dąbrowskiego",
+          "variants": 1,
+          "tripCount": 92,
+          "stops": 23,
+          "lengthKm": 11.06,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4599607022318426,
+            "roundaboutSegs": 69,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "2",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "MARKLOWICE p. Niedobczyce",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 29,
+          "lengthKm": 19.05,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.81139259531774,
+            "roundaboutSegs": 59,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 28,
+          "lengthKm": 18.69,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.395775917313395,
+            "roundaboutSegs": 80,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "03",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "O S I N Y Główna Pętla",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 10,
+          "lengthKm": 5.55,
+          "stats": {
+            "observations": 10,
+            "matched": 10,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.436444208411768,
+            "roundaboutSegs": 45,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Centrum Przesiadkowe",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 10,
+          "lengthKm": 5.46,
+          "stats": {
+            "observations": 10,
+            "matched": 10,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.541136416263001,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "3",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADLIN p. Niedobczyce",
+          "variants": 1,
+          "tripCount": 268,
+          "stops": 22,
+          "lengthKm": 14.74,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.30740979973273,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ORZEPOWICE p. Niedobczyce",
+          "variants": 1,
+          "tripCount": 264,
+          "stops": 23,
+          "lengthKm": 15.18,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.855300130271619,
+            "roundaboutSegs": 84,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "04",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYBNICKA-GRANICA przez: Rybnicką",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 13,
+          "lengthKm": 8.32,
+          "stats": {
+            "observations": 13,
+            "matched": 13,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3649215135997554,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CENTRUM PRZESIADKOWE przez: Folwarecką",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 13,
+          "lengthKm": 8.24,
+          "stats": {
+            "observations": 13,
+            "matched": 13,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.423577170240529,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "4",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "NIEWIADOM p. Niedobczyce",
+          "variants": 1,
+          "tripCount": 118,
+          "stops": 33,
+          "lengthKm": 23.69,
+          "stats": {
+            "observations": 33,
+            "matched": 33,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.936952871423351,
+            "roundaboutSegs": 127,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "05",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOGUSZOWICKA",
+          "variants": 1,
+          "tripCount": 86,
+          "stops": 21,
+          "lengthKm": 13.23,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.261762714757566,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "BAJERÓWKA",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 21,
+          "lengthKm": 13.41,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5040369024902773,
+            "roundaboutSegs": 79,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "5",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADZIEJÓW p. Popielów",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 26,
+          "lengthKm": 17.04,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.265379738137069,
+            "roundaboutSegs": 98,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "06",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PUKOWCA PĘTLA",
+          "variants": 1,
+          "tripCount": 74,
+          "stops": 21,
+          "lengthKm": 12.51,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.58061806800862,
+            "roundaboutSegs": 75,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "MIASTECZKO WESTERNOWE",
+          "variants": 1,
+          "tripCount": 74,
+          "stops": 21,
+          "lengthKm": 12.3,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9444330169316513,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "6",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADLIN p. Popielów",
+          "variants": 1,
+          "tripCount": 122,
+          "stops": 27,
+          "lengthKm": 18.2,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.64085257269748,
+            "roundaboutSegs": 74,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DWORZEC AUTOBUSOWY p. Orzepowice",
+          "variants": 1,
+          "tripCount": 126,
+          "stops": 26,
+          "lengthKm": 18.66,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.761130457944327,
+            "roundaboutSegs": 99,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "07",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PRZYJAZNA",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 19,
+          "lengthKm": 10.95,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.753066815326575,
+            "roundaboutSegs": 70,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "FRANCUSKA",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 24,
+          "lengthKm": 16.77,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1368879048307328,
+            "roundaboutSegs": 87,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "7",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BUZOWICE p. Zamysłów",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 20,
+          "lengthKm": 14.77,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.176397222118924,
+            "roundaboutSegs": 94,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PÓŁNOC Kąpielisko Ruda",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 22,
+          "lengthKm": 15.1,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.212098546071934,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "08",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYBNICKA-GRANICA przez: Przemysłową",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 18,
+          "lengthKm": 11.18,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2145718641740686,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ARCHIWUM przez: Przemysłową",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 20,
+          "lengthKm": 10.7,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.869820298340045,
+            "roundaboutSegs": 83,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "8",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYDUŁTOWY p. Radlin Głożyny",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 21,
+          "lengthKm": 14.39,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.269996301741353,
+            "roundaboutSegs": 71,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 21,
+          "lengthKm": 14.73,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.794523084885952,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "09",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOCZNA-KLONOWA p. Mikołowska-Dworzec Kolejowy",
+          "variants": 1,
+          "tripCount": 136,
+          "stops": 10,
+          "lengthKm": 5.61,
+          "stats": {
+            "observations": 10,
+            "matched": 10,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1972441464619714,
+            "roundaboutSegs": 70,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "BAJERÓWKA p. Dworzec Kolejowy",
+          "variants": 1,
+          "tripCount": 136,
+          "stops": 12,
+          "lengthKm": 6.09,
+          "stats": {
+            "observations": 12,
+            "matched": 12,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7595946047965616,
+            "roundaboutSegs": 53,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "9",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "NIEDOBCZYCE p. Niewiadom",
+          "variants": 1,
+          "tripCount": 124,
+          "stops": 31,
+          "lengthKm": 23.15,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.55089509662565,
+            "roundaboutSegs": 153,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rydułtowy",
+          "variants": 1,
+          "tripCount": 106,
+          "stops": 23,
+          "lengthKm": 19.31,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.457083061705381,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RYBNIK Dworzec Kolejowy",
+          "variants": 1,
+          "tripCount": 98,
+          "stops": 23,
+          "lengthKm": 18.81,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.420513071130916,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYBNICKA KUŹNIA p. Wielopole",
+          "variants": 1,
+          "tripCount": 72,
+          "stops": 31,
+          "lengthKm": 21.09,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.224171275102435,
+            "roundaboutSegs": 239,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "13",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
+          "variants": 1,
+          "tripCount": 144,
+          "stops": 29,
+          "lengthKm": 21.19,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.048782185282683,
+            "roundaboutSegs": 133,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "GRABOWNIA p. Wielopole, Ochojec",
+          "variants": 1,
+          "tripCount": 186,
+          "stops": 41,
+          "lengthKm": 30.49,
+          "stats": {
+            "observations": 41,
+            "matched": 41,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.507108891100456,
+            "roundaboutSegs": 287,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "15",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOGUSZOWICE p. Paruszowiec Piaski",
+          "variants": 1,
+          "tripCount": 74,
+          "stops": 27,
+          "lengthKm": 17.37,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.5271458428489995,
+            "roundaboutSegs": 115,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHWAŁOWICE p. Paruszowiec Piaski",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 26,
+          "lengthKm": 16.83,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.9790889637751885,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "16",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "GOTARTOWICE p. Paruszowiec Piaski",
+          "variants": 1,
+          "tripCount": 146,
+          "stops": 28,
+          "lengthKm": 18.44,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.16008976734284,
+            "roundaboutSegs": 93,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "17",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Leszczyny",
+          "variants": 1,
+          "tripCount": 36,
+          "stops": 21,
+          "lengthKm": 28.67,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.17533159221232,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "18",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KSIĄŻENICE p. Kamień",
+          "variants": 1,
+          "tripCount": 154,
+          "stops": 28,
+          "lengthKm": 24.1,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.957333598245106,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "19",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KAMIEŃ p. Ksiązenice",
+          "variants": 1,
+          "tripCount": 84,
+          "stops": 28,
+          "lengthKm": 24.12,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.70164764497908,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "POPIELÓW p. Radziejów",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 26,
+          "lengthKm": 17.6,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.2577925091220665,
+            "roundaboutSegs": 80,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "23",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYDUŁTOWY p. Radziejów, Niewiadom",
+          "variants": 1,
+          "tripCount": 90,
+          "stops": 34,
+          "lengthKm": 24.71,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.168826610166896,
+            "roundaboutSegs": 102,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PÓŁNOC Kąpielisko Ruda",
+          "variants": 1,
+          "tripCount": 90,
+          "stops": 33,
+          "lengthKm": 24.35,
+          "stats": {
+            "observations": 33,
+            "matched": 33,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.953120792262057,
+            "roundaboutSegs": 114,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "24",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 46,
+          "stops": 28,
+          "lengthKm": 19.75,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.191803398695582,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "MEKSYK p. Jejkowice, Orzepowice",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 28,
+          "lengthKm": 19.72,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.387611306138403,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "26",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JEJKOWICE p. Maroko Nowiny",
+          "variants": 1,
+          "tripCount": 182,
+          "stops": 20,
+          "lengthKm": 12.09,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.050066495574379,
+            "roundaboutSegs": 104,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RYBNICKA KUŹNIA p. Wielopole",
+          "variants": 1,
+          "tripCount": 196,
+          "stops": 20,
+          "lengthKm": 12.53,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.959224055961494,
+            "roundaboutSegs": 102,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "27",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "LYSKI p. Gaszowice",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 24,
+          "lengthKm": 18.29,
+          "stats": {
+            "observations": 24,
+            "matched": 23,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.937733057318779,
+            "roundaboutSegs": 152,
+            "extStart": 0,
+            "extEnd": 795
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHWAŁOWICE p. Gaszowice",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 23,
+          "lengthKm": 17.86,
+          "stats": {
+            "observations": 23,
+            "matched": 22,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.446159177597602,
+            "roundaboutSegs": 117,
+            "extStart": 813,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "28",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYDUŁTOWY p. Gaszowice, Piece",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 25,
+          "lengthKm": 19.79,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.14274576898685,
+            "roundaboutSegs": 76,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ŚRÓDMIEŚCIE POLICJA p. Maroko Nowiny",
+          "variants": 1,
+          "tripCount": 78,
+          "stops": 25,
+          "lengthKm": 19.89,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.420897170520083,
+            "roundaboutSegs": 87,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "29",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CZERNICA p. Gaszowice",
+          "variants": 1,
+          "tripCount": 134,
+          "stops": 27,
+          "lengthKm": 20.69,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.64644434921991,
+            "roundaboutSegs": 152,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Śródmieście Sąd",
+          "variants": 1,
+          "tripCount": 122,
+          "stops": 30,
+          "lengthKm": 24.6,
+          "stats": {
+            "observations": 30,
+            "matched": 29,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.368703471032585,
+            "roundaboutSegs": 123,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "30",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANKOWICE p. Meksyk",
+          "variants": 1,
+          "tripCount": 84,
+          "stops": 24,
+          "lengthKm": 17,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.027547399766382,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PÓŁNOC Kąpielisko Ruda",
+          "variants": 1,
+          "tripCount": 78,
+          "stops": 25,
+          "lengthKm": 17.28,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.85327845731525,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "32",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOGUSZOWICE p. Chwałowice",
+          "variants": 1,
+          "tripCount": 146,
+          "stops": 28,
+          "lengthKm": 20.5,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.9010481238133785,
+            "roundaboutSegs": 114,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "33",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŚWIERKLANY p. Chwałowice",
+          "variants": 1,
+          "tripCount": 86,
+          "stops": 25,
+          "lengthKm": 18.53,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.274935873251315,
+            "roundaboutSegs": 161,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ORZEPOWICE p. Maroko Nowiny",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 25,
+          "lengthKm": 18.68,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.701281906882198,
+            "roundaboutSegs": 137,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "34",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WILCZA p. Rybnicką Kuźnię",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 16,
+          "lengthKm": 17.4,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.608915626947214,
+            "roundaboutSegs": 109,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RYBNIK ŚRÓDMIEŚCIE Plac Wolności",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 15,
+          "lengthKm": 17.38,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.309604945138073,
+            "roundaboutSegs": 92,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "36",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "LYSKI p. Jejkowice",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 20,
+          "lengthKm": 15.9,
+          "stats": {
+            "observations": 20,
+            "matched": 19,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.558212961302447,
+            "roundaboutSegs": 136,
+            "extStart": 0,
+            "extEnd": 795
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Chwałowice",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 20,
+          "lengthKm": 15.7,
+          "stats": {
+            "observations": 20,
+            "matched": 19,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.700871232860575,
+            "roundaboutSegs": 105,
+            "extStart": 813,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "41",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WIELOPOLE p. Rybnicką Kuźnię",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 31,
+          "lengthKm": 21.08,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.03814291922467,
+            "roundaboutSegs": 177,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "42",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CHWAŁOWICE p. Boguszowice",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 23,
+          "lengthKm": 17.63,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.152052732865488,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KŁOKOCIN p. Boguszowice",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 23,
+          "lengthKm": 17.27,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.606939257896763,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "43",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RUDY p. Chwałęcice, Stodoły",
+          "variants": 1,
+          "tripCount": 118,
+          "stops": 31,
+          "lengthKm": 25.15,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.960302054175958,
+            "roundaboutSegs": 144,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Chwałowice",
+          "variants": 1,
+          "tripCount": 128,
+          "stops": 32,
+          "lengthKm": 25.18,
+          "stats": {
+            "observations": 32,
+            "matched": 32,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.888998252453198,
+            "roundaboutSegs": 189,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "45",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZWONOWICE p. Chwałęcice",
+          "variants": 1,
+          "tripCount": 210,
+          "stops": 39,
+          "lengthKm": 27.9,
+          "stats": {
+            "observations": 39,
+            "matched": 39,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.903234138085078,
+            "roundaboutSegs": 160,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KŁOKOCIN p. Gotartowice",
+          "variants": 1,
+          "tripCount": 208,
+          "stops": 36,
+          "lengthKm": 27.13,
+          "stats": {
+            "observations": 36,
+            "matched": 36,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.505633947006106,
+            "roundaboutSegs": 127,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "46",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Boguszowice",
+          "variants": 1,
+          "tripCount": 292,
+          "stops": 26,
+          "lengthKm": 17.12,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.759522513840323,
+            "roundaboutSegs": 112,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 284,
+          "stops": 28,
+          "lengthKm": 18.31,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.448570493878215,
+            "roundaboutSegs": 130,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "46A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Boguszowice",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 12,
+          "lengthKm": 11.26,
+          "stats": {
+            "observations": 12,
+            "matched": 12,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.729121672967654,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Śródmieście Sąd",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 14,
+          "lengthKm": 12.19,
+          "stats": {
+            "observations": 14,
+            "matched": 14,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.0267192903597,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "48",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOGUSZOWICE p. Gotartowice",
+          "variants": 1,
+          "tripCount": 338,
+          "stops": 34,
+          "lengthKm": 22.93,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.862329631523551,
+            "roundaboutSegs": 233,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 344,
+          "stops": 35,
+          "lengthKm": 23.27,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.970029642742649,
+            "roundaboutSegs": 146,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "49",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOGUSZOWICE p. Meksyk",
+          "variants": 1,
+          "tripCount": 90,
+          "stops": 19,
+          "lengthKm": 14.72,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.088131411882038,
+            "roundaboutSegs": 91,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RYBNICKA KUŹNIA p. Meksyk, Wielopole",
+          "variants": 1,
+          "tripCount": 96,
+          "stops": 19,
+          "lengthKm": 15.24,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.536956635615131,
+            "roundaboutSegs": 97,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "51",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PARUSZOWIEC PIASKI p. Ligotę, Gotartowice",
+          "variants": 1,
+          "tripCount": 140,
+          "stops": 26,
+          "lengthKm": 18.66,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.9295446998692976,
+            "roundaboutSegs": 165,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "52",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŻORY CP p. Gotartowice",
+          "variants": 1,
+          "tripCount": 182,
+          "stops": 27,
+          "lengthKm": 18.56,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.015564867196531,
+            "roundaboutSegs": 231,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RYBNIK Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 182,
+          "stops": 28,
+          "lengthKm": 18.77,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.177089959668333,
+            "roundaboutSegs": 222,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "201",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 9,
+          "tripCount": 11,
+          "stops": 40,
+          "lengthKm": 30.39,
+          "stats": {
+            "observations": 1272,
+            "matched": 1272,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.631715546935912,
+            "roundaboutSegs": 61,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "202",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 8,
+          "tripCount": 16,
+          "stops": 40,
+          "lengthKm": 30.35,
+          "stats": {
+            "observations": 1363,
+            "matched": 1363,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3243983474258676,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "203",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 2,
+          "tripCount": 21,
+          "stops": 32,
+          "lengthKm": 22.22,
+          "stats": {
+            "observations": 910,
+            "matched": 910,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.940224912091498,
+            "roundaboutSegs": 70,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Krzyżkowice Działki",
+          "variants": 3,
+          "tripCount": 20,
+          "stops": 31,
+          "lengthKm": 22.25,
+          "stats": {
+            "observations": 891,
+            "matched": 891,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.244364346005318,
+            "roundaboutSegs": 53,
+            "extStart": 0,
+            "extEnd": 360
+          }
+        }
+      ]
+    },
+    {
+      "line": "204",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 3,
+          "tripCount": 7,
+          "stops": 18,
+          "lengthKm": 15.54,
+          "stats": {
+            "observations": 684,
+            "matched": 684,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9615281340537716,
+            "roundaboutSegs": 14,
+            "extStart": 406,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Raciborska Orłowiec",
+          "variants": 2,
+          "tripCount": 7,
+          "stops": 17,
+          "lengthKm": 15.07,
+          "stats": {
+            "observations": 621,
+            "matched": 621,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.896884211793114,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 584
+          }
+        }
+      ]
+    },
+    {
+      "line": "205",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 4,
+          "tripCount": 11,
+          "stops": 28,
+          "lengthKm": 22.48,
+          "stats": {
+            "observations": 1003,
+            "matched": 1003,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7960820584998927,
+            "roundaboutSegs": 96,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rydułtowy Obywatelska",
+          "variants": 2,
+          "tripCount": 12,
+          "stops": 27,
+          "lengthKm": 22.15,
+          "stats": {
+            "observations": 1028,
+            "matched": 1028,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1958484260011084,
+            "roundaboutSegs": 89,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "206",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Raciborska Orłowiec",
+          "variants": 4,
+          "tripCount": 9,
+          "stops": 19,
+          "lengthKm": 14.7,
+          "stats": {
+            "observations": 711,
+            "matched": 711,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1916884514686714,
+            "roundaboutSegs": 70,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 19,
+          "lengthKm": 14.05,
+          "stats": {
+            "observations": 648,
+            "matched": 648,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.8996094507355465,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "207",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 2,
+          "tripCount": 10,
+          "stops": 31,
+          "lengthKm": 24.66,
+          "stats": {
+            "observations": 1151,
+            "matched": 1151,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9019673153723398,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rydułtowy Rynek",
+          "variants": 3,
+          "tripCount": 7,
+          "stops": 30,
+          "lengthKm": 23.86,
+          "stats": {
+            "observations": 1095,
+            "matched": 1095,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.94019821846746,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "208",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 2,
+          "tripCount": 15,
+          "stops": 12,
+          "lengthKm": 10.07,
+          "stats": {
+            "observations": 430,
+            "matched": 430,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4566563568091686,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Świerklany Dolne Kościół",
+          "variants": 2,
+          "tripCount": 14,
+          "stops": 12,
+          "lengthKm": 10.46,
+          "stats": {
+            "observations": 473,
+            "matched": 473,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.5056412459675363,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "209",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Radlin Korfantego Centrum",
+          "variants": 3,
+          "tripCount": 2,
+          "stops": 14,
+          "lengthKm": 10.61,
+          "stats": {
+            "observations": 505,
+            "matched": 505,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8242329100169299,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 17,
+          "lengthKm": 12.65,
+          "stats": {
+            "observations": 604,
+            "matched": 604,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.8025627394228994,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "210",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 2,
+          "tripCount": 5,
+          "stops": 26,
+          "lengthKm": 18.88,
+          "stats": {
+            "observations": 808,
+            "matched": 808,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.696976825576046,
+            "roundaboutSegs": 45,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Radlin Korfantego KWK Marcel",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 22,
+          "lengthKm": 16.88,
+          "stats": {
+            "observations": 739,
+            "matched": 739,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.388369410595132,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "300",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "R-k Śródmieście Dw. Kolejowy",
+          "variants": 3,
+          "tripCount": 2,
+          "stops": 22,
+          "lengthKm": 19.9,
+          "stats": {
+            "observations": 971,
+            "matched": 971,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.098832987707195,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dębieńsko Las",
+          "variants": 3,
+          "tripCount": 2,
+          "stops": 25,
+          "lengthKm": 22.46,
+          "stats": {
+            "observations": 1097,
+            "matched": 1097,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.714291525510473,
+            "roundaboutSegs": 105,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "301",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dębieńsko Las",
+          "variants": 4,
+          "tripCount": 10,
+          "stops": 38,
+          "lengthKm": 30.92,
+          "stats": {
+            "observations": 1532,
+            "matched": 1532,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.727630880100175,
+            "roundaboutSegs": 116,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "R-k Maroko Nowiny Dworzec Autobusowy",
+          "variants": 6,
+          "tripCount": 10,
+          "stops": 36,
+          "lengthKm": 30.24,
+          "stats": {
+            "observations": 1447,
+            "matched": 1447,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2894400554594703,
+            "roundaboutSegs": 116,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "302",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "R-k Śródmieście Dw. Kolejowy",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 17,
+          "lengthKm": 16.17,
+          "stats": {
+            "observations": 749,
+            "matched": 749,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0826752130648662,
+            "roundaboutSegs": 17,
+            "extStart": 443,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KWK Dębieńsko",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 16,
+          "lengthKm": 15.74,
+          "stats": {
+            "observations": 759,
+            "matched": 759,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.66472098547415,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "303",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Kamień Rzędówka",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 14,
+          "lengthKm": 13.85,
+          "stats": {
+            "observations": 531,
+            "matched": 531,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8271355135959928,
+            "roundaboutSegs": 22,
+            "extStart": 398,
+            "extEnd": 1341
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Koksownia Dębieńsko Pętla",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 14,
+          "lengthKm": 13.54,
+          "stats": {
+            "observations": 566,
+            "matched": 566,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5076721814285303,
+            "roundaboutSegs": 5,
+            "extStart": 1283,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "304",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dębieńsko Las",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 28,
+          "lengthKm": 18.84,
+          "stats": {
+            "observations": 887,
+            "matched": 887,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3752581156274677,
+            "roundaboutSegs": 56,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Leszczyny Czereśniowa",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 27,
+          "lengthKm": 17.26,
+          "stats": {
+            "observations": 778,
+            "matched": 778,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0542012209740266,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "305",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Koksownia Dębieńsko Pętla",
+          "variants": 5,
+          "tripCount": 16,
+          "stops": 29,
+          "lengthKm": 26.44,
+          "stats": {
+            "observations": 1291,
+            "matched": 1291,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1861418713877065,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Żory Centrum Przesiadkowe",
+          "variants": 5,
+          "tripCount": 13,
+          "stops": 27,
+          "lengthKm": 26.13,
+          "stats": {
+            "observations": 1189,
+            "matched": 1189,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.6792351322243144,
+            "roundaboutSegs": 62,
+            "extStart": 443,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "306",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "R-k Śródmieście Dw. Kolejowy",
+          "variants": 1,
+          "tripCount": 7,
+          "stops": 26,
+          "lengthKm": 28.78,
+          "stats": {
+            "observations": 1417,
+            "matched": 1417,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8984760437907917,
+            "roundaboutSegs": 52,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Żory Centrum Przesiadkowe",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 26,
+          "lengthKm": 28.94,
+          "stats": {
+            "observations": 1358,
+            "matched": 1358,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.764163991500608,
+            "roundaboutSegs": 73,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "307",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Żory Centrum Przesiadkowe",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 16,
+          "lengthKm": 14.63,
+          "stats": {
+            "observations": 663,
+            "matched": 663,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8082568693906778,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KWK Pniówek",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 15,
+          "lengthKm": 14.12,
+          "stats": {
+            "observations": 627,
+            "matched": 627,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0611631685122056,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "308",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Żory Centrum Przesiadkowe",
+          "variants": 3,
+          "tripCount": 13,
+          "stops": 16,
+          "lengthKm": 10.61,
+          "stats": {
+            "observations": 530,
+            "matched": 530,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.068936567483408,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Suszec Piaskowa Osiedle.",
+          "variants": 4,
+          "tripCount": 12,
+          "stops": 16,
+          "lengthKm": 10.63,
+          "stats": {
+            "observations": 518,
+            "matched": 518,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1597694464958725,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "309",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Leszczyny Czereśniowa",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 13,
+          "lengthKm": 8.04,
+          "stats": {
+            "observations": 342,
+            "matched": 342,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0729503430841794,
+            "roundaboutSegs": 12,
+            "extStart": 885,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Koksownia Dębieńsko Pętla",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 17,
+          "lengthKm": 10.3,
+          "stats": {
+            "observations": 479,
+            "matched": 479,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9450612877838345,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PÓŁNOC p. Maroko Nowiny",
+          "variants": 1,
+          "tripCount": 78,
+          "stops": 15,
+          "lengthKm": 9.2,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.194136825079019,
+            "roundaboutSegs": 134,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Zamysłów",
+          "variants": 1,
+          "tripCount": 72,
+          "stops": 16,
+          "lengthKm": 9.27,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.96360851385239,
+            "roundaboutSegs": 161,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 21,
+          "lengthKm": 16,
+          "stats": {
+            "observations": 695,
+            "matched": 695,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9093082645434145,
+            "roundaboutSegs": 95,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Carbonarium WORD",
+          "variants": 1,
+          "tripCount": 23,
+          "stops": 21,
+          "lengthKm": 15.82,
+          "stats": {
+            "observations": 756,
+            "matched": 756,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9130028599479545,
+            "roundaboutSegs": 54,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Carbonarium WORD",
+          "variants": 2,
+          "tripCount": 5,
+          "stops": 20,
+          "lengthKm": 16.42,
+          "stats": {
+            "observations": 792,
+            "matched": 792,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.025745148742784,
+            "roundaboutSegs": 42,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 2,
+          "tripCount": 4,
+          "stops": 19,
+          "lengthKm": 16.45,
+          "stats": {
+            "observations": 706,
+            "matched": 706,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.0783343266375023,
+            "roundaboutSegs": 95,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 20,
+          "lengthKm": 17.15,
+          "stats": {
+            "observations": 858,
+            "matched": 858,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7727398614786627,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 20,
+          "lengthKm": 17.54,
+          "stats": {
+            "observations": 878,
+            "matched": 878,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.151892396434358,
+            "roundaboutSegs": 68,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B13",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Zdrój",
+          "variants": 2,
+          "tripCount": 27,
+          "stops": 19,
+          "lengthKm": 13.95,
+          "stats": {
+            "observations": 683,
+            "matched": 683,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1071289516813683,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bzie Dolne",
+          "variants": 2,
+          "tripCount": 27,
+          "stops": 17,
+          "lengthKm": 13.41,
+          "stats": {
+            "observations": 545,
+            "matched": 545,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5787748183771924,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bzie Dolne",
+          "variants": 2,
+          "tripCount": 6,
+          "stops": 14,
+          "lengthKm": 14.06,
+          "stats": {
+            "observations": 622,
+            "matched": 622,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.341291697586644,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Zdrój",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 15,
+          "lengthKm": 13.92,
+          "stats": {
+            "observations": 611,
+            "matched": 611,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3660364059891994,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B15",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 2,
+          "tripCount": 21,
+          "stops": 15,
+          "lengthKm": 11.06,
+          "stats": {
+            "observations": 500,
+            "matched": 500,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.205568418217311,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bzie Szkoła",
+          "variants": 1,
+          "tripCount": 23,
+          "stops": 15,
+          "lengthKm": 11,
+          "stats": {
+            "observations": 537,
+            "matched": 537,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5978960178275794,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KWK Jas-Mos",
+          "variants": 1,
+          "tripCount": 50,
+          "stops": 14,
+          "lengthKm": 8.42,
+          "stats": {
+            "observations": 423,
+            "matched": 423,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6848574296004548,
+            "roundaboutSegs": 51,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 45,
+          "stops": 14,
+          "lengthKm": 8.68,
+          "stats": {
+            "observations": 435,
+            "matched": 435,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5095987280848213,
+            "roundaboutSegs": 79,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Chlebowa Pętla",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 24,
+          "lengthKm": 16.15,
+          "stats": {
+            "observations": 781,
+            "matched": 781,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7972456741001195,
+            "roundaboutSegs": 80,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 2,
+          "tripCount": 13,
+          "stops": 28,
+          "lengthKm": 21.74,
+          "stats": {
+            "observations": 883,
+            "matched": 883,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2303275631691295,
+            "roundaboutSegs": 94,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C13",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KWK Jas-Mos",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 11,
+          "lengthKm": 7.17,
+          "stats": {
+            "observations": 295,
+            "matched": 295,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4386682714844814,
+            "roundaboutSegs": 24,
+            "extStart": 911,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 13,
+          "lengthKm": 8.65,
+          "stats": {
+            "observations": 413,
+            "matched": 413,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9418468411886325,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 2,
+          "tripCount": 13,
+          "stops": 24,
+          "lengthKm": 18.77,
+          "stats": {
+            "observations": 832,
+            "matched": 832,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.866474053726511,
+            "roundaboutSegs": 95,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C15",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Chlebowa Pętla",
+          "variants": 1,
+          "tripCount": 23,
+          "stops": 17,
+          "lengthKm": 11.04,
+          "stats": {
+            "observations": 555,
+            "matched": 555,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2563170892045994,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KWK Jas-Mos",
+          "variants": 1,
+          "tripCount": 22,
+          "stops": 17,
+          "lengthKm": 10.62,
+          "stats": {
+            "observations": 517,
+            "matched": 517,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.065417946578071,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C16",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Chlebowa Pętla",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 22,
+          "lengthKm": 14.59,
+          "stats": {
+            "observations": 731,
+            "matched": 731,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4784088158334447,
+            "roundaboutSegs": 94,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C17",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KWK Jas-Mos",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 11,
+          "lengthKm": 6.98,
+          "stats": {
+            "observations": 350,
+            "matched": 350,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7223454255401667,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 9,
+          "stops": 11,
+          "lengthKm": 7.46,
+          "stats": {
+            "observations": 374,
+            "matched": 374,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3580603612321847,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C18",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 11,
+          "lengthKm": 7.27,
+          "stats": {
+            "observations": 362,
+            "matched": 362,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5871682167603556,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Carbonarium WORD",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 11,
+          "lengthKm": 7.01,
+          "stats": {
+            "observations": 331,
+            "matched": 331,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0398490714552886,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C19",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 2,
+          "tripCount": 25,
+          "stops": 13,
+          "lengthKm": 8.64,
+          "stats": {
+            "observations": 432,
+            "matched": 432,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.6965419531811574,
+            "roundaboutSegs": 69,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Os. Bogoczowiec",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 13,
+          "lengthKm": 7.42,
+          "stats": {
+            "observations": 349,
+            "matched": 349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 498,
+            "meanError": 2.2459867376482676,
+            "roundaboutSegs": 61,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KWK Pniówek",
+          "variants": 7,
+          "tripCount": 12,
+          "stops": 38,
+          "lengthKm": 28.29,
+          "stats": {
+            "observations": 1207,
+            "matched": 1207,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1217242401049368,
+            "roundaboutSegs": 51,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-2",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Golasowice Pętla",
+          "variants": 7,
+          "tripCount": 17,
+          "stops": 16,
+          "lengthKm": 12.05,
+          "stats": {
+            "observations": 461,
+            "matched": 461,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.2593692936589793,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-3",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Warszowice Wiadukt",
+          "variants": 4,
+          "tripCount": 19,
+          "stops": 12,
+          "lengthKm": 9.46,
+          "stats": {
+            "observations": 393,
+            "matched": 393,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9961599398568177,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 3,
+          "tripCount": 19,
+          "stops": 12,
+          "lengthKm": 9.25,
+          "stats": {
+            "observations": 290,
+            "matched": 290,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.619298562987117,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-4",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Krzyżowice Kościół",
+          "variants": 7,
+          "tripCount": 18,
+          "stops": 16,
+          "lengthKm": 12.3,
+          "stats": {
+            "observations": 510,
+            "matched": 510,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.963467853716511,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pniówek Wieś",
+          "variants": 8,
+          "tripCount": 20,
+          "stops": 15,
+          "lengthKm": 11.64,
+          "stats": {
+            "observations": 384,
+            "matched": 384,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.0540298686656335,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-5",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Strumień RYNEK",
+          "variants": 3,
+          "tripCount": 4,
+          "stops": 10,
+          "lengthKm": 8.94,
+          "stats": {
+            "observations": 269,
+            "matched": 269,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.941634267456827,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 146
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 2,
+          "tripCount": 6,
+          "stops": 7,
+          "lengthKm": 9.01,
+          "stats": {
+            "observations": 232,
+            "matched": 232,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.9416079320286865,
+            "roundaboutSegs": 5,
+            "extStart": 154,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-6",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bąków Skrzyżowanie",
+          "variants": 5,
+          "tripCount": 2,
+          "stops": 24,
+          "lengthKm": 20.71,
+          "stats": {
+            "observations": 679,
+            "matched": 679,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.3578135820984483,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pawłowice Osiedle Liceum",
+          "variants": 4,
+          "tripCount": 4,
+          "stops": 19,
+          "lengthKm": 18.36,
+          "stats": {
+            "observations": 606,
+            "matched": 606,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.181717742779245,
+            "roundaboutSegs": 20,
+            "extStart": 208,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L-7",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Studzionka Cmentarz",
+          "variants": 2,
+          "tripCount": 4,
+          "stops": 7,
+          "lengthKm": 4.91,
+          "stats": {
+            "observations": 166,
+            "matched": 166,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.298124475422111,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 3,
+          "tripCount": 2,
+          "stops": 7,
+          "lengthKm": 4.94,
+          "stats": {
+            "observations": 229,
+            "matched": 229,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1048361145252157,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Szotkowice Pętla",
+          "variants": 1,
+          "tripCount": 39,
+          "stops": 18,
+          "lengthKm": 10.82,
+          "stats": {
+            "observations": 523,
+            "matched": 523,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7781386955030722,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 41,
+          "stops": 18,
+          "lengthKm": 10.7,
+          "stats": {
+            "observations": 534,
+            "matched": 534,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.887993692164588,
+            "roundaboutSegs": 85,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N6",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RYBNICKA KUŹNIA Chłodnie Pętla",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 47,
+          "lengthKm": 33.14,
+          "stats": {
+            "observations": 47,
+            "matched": 47,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.944915090197895,
+            "roundaboutSegs": 169,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N8",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BOGUSZOWICE p. Chwałowice",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 39,
+          "lengthKm": 30.09,
+          "stats": {
+            "observations": 39,
+            "matched": 39,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.555058112370617,
+            "roundaboutSegs": 215,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "PR",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Łikend ->STODOŁY p. Kąpieliska Rudy, Pniowiec",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 11,
+          "lengthKm": 9.26,
+          "stats": {
+            "observations": 11,
+            "matched": 11,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.326438286919642,
+            "roundaboutSegs": 61,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ŁIKEND ->ŚRÓDMIEŚCIE Plac Wolności",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 11,
+          "lengthKm": 9.38,
+          "stats": {
+            "observations": 11,
+            "matched": 11,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.914729407278424,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "R10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Zebrzydowice Ośrodek Zdrowia",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 21,
+          "lengthKm": 16.64,
+          "stats": {
+            "observations": 727,
+            "matched": 727,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.34571210095632,
+            "roundaboutSegs": 73,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Chlebowa Pętla",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 21,
+          "lengthKm": 16.94,
+          "stats": {
+            "observations": 694,
+            "matched": 694,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9992407075111092,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "R11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Zebrzydowice Skrzyżowanie",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 18,
+          "lengthKm": 14.57,
+          "stats": {
+            "observations": 679,
+            "matched": 679,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3483479265691827,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Chlebowa Pętla",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 18,
+          "lengthKm": 14.92,
+          "stats": {
+            "observations": 613,
+            "matched": 613,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.98658736563093,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Żory Centrum Przesiadkowe",
+          "variants": 2,
+          "tripCount": 47,
+          "stops": 27,
+          "lengthKm": 20.22,
+          "stats": {
+            "observations": 936,
+            "matched": 936,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.448877770923853,
+            "roundaboutSegs": 73,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 2,
+          "tripCount": 45,
+          "stops": 29,
+          "lengthKm": 20.33,
+          "stats": {
+            "observations": 933,
+            "matched": 933,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2727839014958136,
+            "roundaboutSegs": 135,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Chlebowa Pętla",
+          "variants": 1,
+          "tripCount": 8,
+          "stops": 36,
+          "lengthKm": 28.47,
+          "stats": {
+            "observations": 1223,
+            "matched": 1223,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.503615297057023,
+            "roundaboutSegs": 127,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Żory Centrum Przesiadkowe",
+          "variants": 1,
+          "tripCount": 7,
+          "stops": 34,
+          "lengthKm": 28.12,
+          "stats": {
+            "observations": 1199,
+            "matched": 1199,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7716727049343923,
+            "roundaboutSegs": 123,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Zdrój",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 31,
+          "lengthKm": 23.23,
+          "stats": {
+            "observations": 574,
+            "matched": 574,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.339468133771378,
+            "roundaboutSegs": 94,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "R-k Śródmieście 3 Maja",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 33,
+          "lengthKm": 23.85,
+          "stats": {
+            "observations": 595,
+            "matched": 595,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.363343740320124,
+            "roundaboutSegs": 98,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S12A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "R-k Śródmieście 3 Maja",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 36,
+          "lengthKm": 27.09,
+          "stats": {
+            "observations": 768,
+            "matched": 768,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.977467193150655,
+            "roundaboutSegs": 98,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Zdrój",
+          "variants": 1,
+          "tripCount": 7,
+          "stops": 34,
+          "lengthKm": 26.2,
+          "stats": {
+            "observations": 707,
+            "matched": 707,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2164453966444038,
+            "roundaboutSegs": 94,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S13",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Carbonarium WORD",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 31,
+          "lengthKm": 21.08,
+          "stats": {
+            "observations": 1057,
+            "matched": 1057,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.233313900904764,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KWK Borynia",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 31,
+          "lengthKm": 21.74,
+          "stats": {
+            "observations": 1017,
+            "matched": 1017,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4558504062981896,
+            "roundaboutSegs": 103,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KWK Borynia",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 16,
+          "lengthKm": 10.76,
+          "stats": {
+            "observations": 502,
+            "matched": 502,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4097293583693125,
+            "roundaboutSegs": 71,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Zdrój",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 16,
+          "lengthKm": 10.67,
+          "stats": {
+            "observations": 513,
+            "matched": 513,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1542049560346115,
+            "roundaboutSegs": 52,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S15",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Krzyżowice Kościół",
+          "variants": 2,
+          "tripCount": 13,
+          "stops": 27,
+          "lengthKm": 22.1,
+          "stats": {
+            "observations": 941,
+            "matched": 941,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.562044738054615,
+            "roundaboutSegs": 83,
+            "extStart": 0,
+            "extEnd": 527
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Zdrój",
+          "variants": 2,
+          "tripCount": 13,
+          "stops": 27,
+          "lengthKm": 22.28,
+          "stats": {
+            "observations": 1043,
+            "matched": 1043,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7935513930093396,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "S16",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Chlebowa Pętla",
+          "variants": 2,
+          "tripCount": 12,
+          "stops": 20,
+          "lengthKm": 14.16,
+          "stats": {
+            "observations": 688,
+            "matched": 688,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.284597655412314,
+            "roundaboutSegs": 69,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KWK Borynia",
+          "variants": 2,
+          "tripCount": 11,
+          "stops": 20,
+          "lengthKm": 14.14,
+          "stats": {
+            "observations": 672,
+            "matched": 672,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0740508558602873,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W09",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 18,
+          "lengthKm": 18.96,
+          "stats": {
+            "observations": 805,
+            "matched": 805,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.72043213684979,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 18,
+          "lengthKm": 18.71,
+          "stats": {
+            "observations": 706,
+            "matched": 706,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.068976580865236,
+            "roundaboutSegs": 65,
+            "extStart": 1350,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "R-k Śródmieście 3 Maja",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 30,
+          "lengthKm": 27.56,
+          "stats": {
+            "observations": 1205,
+            "matched": 1205,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.25933576036252,
+            "roundaboutSegs": 172,
+            "extStart": 1350,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Arki Bożka",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 29,
+          "lengthKm": 27.05,
+          "stats": {
+            "observations": 1266,
+            "matched": 1266,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5045193803157466,
+            "roundaboutSegs": 167,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Wodzisław Dworzec Autobusowy",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 25,
+          "lengthKm": 21.29,
+          "stats": {
+            "observations": 1060,
+            "matched": 1060,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.418160730769087,
+            "roundaboutSegs": 95,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dworzec Zdrój",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 25,
+          "lengthKm": 21.1,
+          "stats": {
+            "observations": 1036,
+            "matched": 1036,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3159541765934937,
+            "roundaboutSegs": 52,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W32",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 17,
+          "lengthKm": 16.47,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.379743256890322,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W33",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ODRA, GŁÓWNA PĘTLA",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 18,
+          "lengthKm": 15.47,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.553264495730037,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W34",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 17,
+          "lengthKm": 15.42,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.258876698446015,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W36",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, RYBNICKA DWORZEC KOLEJOWY",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 42,
+          "lengthKm": 33.76,
+          "stats": {
+            "observations": 42,
+            "matched": 42,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.567589795933389,
+            "roundaboutSegs": 106,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W38",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 23,
+          "lengthKm": 17.95,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.814581089267507,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W41",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 31,
+          "lengthKm": 27.25,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.364759414646372,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W42",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 26,
+          "lengthKm": 23.9,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.252643059578097,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W50",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, ROZWOJOWA",
+          "variants": 1,
+          "tripCount": 75,
+          "stops": 25,
+          "lengthKm": 15.58,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.266977494935741,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W51",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW, ŚLĄSKI, WILCHWY PĘTLA",
+          "variants": 1,
+          "tripCount": 76,
+          "stops": 31,
+          "lengthKm": 19,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.601476141070465,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W52",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, MŁODZIEŻOWA BOISKO",
+          "variants": 1,
+          "tripCount": 77,
+          "stops": 31,
+          "lengthKm": 22.59,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.795103988811292,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W53",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 18,
+          "lengthKm": 10.17,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.625393935069953,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W59",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WODZISŁAW ŚLĄŚKI, RADLIŃSKA REMIZA",
+          "variants": 1,
+          "tripCount": 53,
+          "stops": 34,
+          "lengthKm": 26.12,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.49884434529627,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "ZL",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "GÓRNICZA-BASEN ZIELONA LINIA",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 15,
+          "lengthKm": 9.08,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.649232001219849,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "BAJERÓWKA",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 16,
+          "lengthKm": 9.14,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.898842009559702,
+            "roundaboutSegs": 79,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    }
+  ]
+}
