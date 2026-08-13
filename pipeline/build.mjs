@@ -206,13 +206,31 @@ async function processMode(cfg) {
       s.add(feed.tag);
     }
 
+    // direction_id alone can lie (the Athens/OSY defect): the Wodzisław feed
+    // ships the column EMPTY on all 583 trips (9 of its 12 lines lost the
+    // return leg), and single lines elsewhere (L-2 Jastrzębie, 12/N8 Rybnik,
+    // 01 Żory) carry one constant value on all trips while the return exists
+    // as separate trips with a mirrored headsign. Grouped by direction_id
+    // alone both directions collapse into one bucket and only the busier one
+    // gets drawn. Pre-scan direction diversity per line; where direction_id
+    // cannot tell directions apart, the headsign is the key.
+    const dirSeen = new Map();
+    for await (const t of iterCsv(join(fdir, 'trips.txt'))) {
+      const L = routeToLine.get(t.route_id);
+      if (!L) continue;
+      let ds = dirSeen.get(L);
+      if (!ds) dirSeen.set(L, (ds = new Set()));
+      ds.add(t.direction_id || '');
+    }
+    const hsKey = (t) => (t.trip_headsign || '').replace(/\s+/g, ' ').trim() || '0';
+
     const byLineDir = new Map();
     for await (const t of iterCsv(join(fdir, 'trips.txt'))) {
       const L = routeToLine.get(t.route_id);
       if (!L) continue;
       let dirs = byLineDir.get(L);
       if (!dirs) byLineDir.set(L, (dirs = new Map()));
-      const dir = t.direction_id || '0';
+      const dir = (dirSeen.get(L)?.size ?? 0) > 1 ? (t.direction_id || '0') : hsKey(t);
       let m = dirs.get(dir);
       if (!m) dirs.set(dir, (m = new Map()));
       let e = m.get(t.shape_id);

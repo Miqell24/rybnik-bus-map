@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T08:02:55.138Z",
+  "generatedAt": "2026-08-12T21:00:01.389Z",
   "bbox": [
-    18.222208,
+    18.220926,
     49.871177,
     18.788626,
     50.198255
@@ -42,10 +42,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "ŻOŁNIERZY WRZEŚNIA przez: Stodolną",
+          "dir": "CENTRUM PRZESIADKOWE",
+          "headsign": "CENTRUM PRZESIADKOWE",
           "variants": 1,
-          "tripCount": 94,
+          "tripCount": 6,
+          "stops": 13,
+          "lengthKm": 5.29,
+          "stats": {
+            "observations": 13,
+            "matched": 13,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9496149382171797,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "CENTRUM PRZESIADKOWE przez: Industrialną",
+          "headsign": "CENTRUM PRZESIADKOWE przez: Industrialną",
+          "variants": 1,
+          "tripCount": 16,
           "stops": 23,
           "lengthKm": 11.21,
           "stats": {
@@ -58,6 +79,48 @@
             "rawMeters": 0,
             "meanError": 2.0183280870989226,
             "roundaboutSegs": 88,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŻOŁNIERZY WRZEŚNIA kurs skrócony",
+          "headsign": "ŻOŁNIERZY WRZEŚNIA kurs skrócony",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 11,
+          "lengthKm": 5.4,
+          "stats": {
+            "observations": 11,
+            "matched": 11,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6899875357036493,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŻOŁNIERZY WRZEŚNIA przez: Stodolną",
+          "headsign": "ŻOŁNIERZY WRZEŚNIA przez: Stodolną",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 19,
+          "lengthKm": 9,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.089917249702448,
+            "roundaboutSegs": 78,
             "extStart": 0,
             "extEnd": 0
           }
@@ -119,10 +182,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "ŻOŁNIERZY WRZEŚNIA przez: Dąbrowskiego",
+          "dir": "CENTRUM PRZESIADKOWE",
+          "headsign": "CENTRUM PRZESIADKOWE",
           "variants": 1,
-          "tripCount": 92,
+          "tripCount": 4,
+          "stops": 14,
+          "lengthKm": 6.56,
+          "stats": {
+            "observations": 14,
+            "matched": 14,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.490245181847176,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "CENTRUM PRZESIADKOWE przez: Industrialną",
+          "headsign": "CENTRUM PRZESIADKOWE przez: Industrialną",
+          "variants": 1,
+          "tripCount": 14,
           "stops": 23,
           "lengthKm": 11.06,
           "stats": {
@@ -135,6 +219,48 @@
             "rawMeters": 0,
             "meanError": 2.4599607022318426,
             "roundaboutSegs": 69,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WOLONTARIUSZY Promienna (kurs skrócony)",
+          "headsign": "WOLONTARIUSZY Promienna (kurs skrócony)",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 11,
+          "lengthKm": 4.66,
+          "stats": {
+            "observations": 11,
+            "matched": 11,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2572355705655176,
+            "roundaboutSegs": 52,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŻOŁNIERZY WRZEŚNIA przez: Dąbrowskiego",
+          "headsign": "ŻOŁNIERZY WRZEŚNIA przez: Dąbrowskiego",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 19,
+          "lengthKm": 8.98,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.6296904459760166,
+            "roundaboutSegs": 72,
             "extStart": 0,
             "extEnd": 0
           }
@@ -343,7 +469,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "NIEWIADOM p. Niedobczyce",
           "headsign": "NIEWIADOM p. Niedobczyce",
           "variants": 1,
           "tripCount": 118,
@@ -420,7 +546,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "RADZIEJÓW p. Popielów",
           "headsign": "RADZIEJÓW p. Popielów",
           "variants": 1,
           "tripCount": 64,
@@ -791,7 +917,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "NIEDOBCZYCE p. Niewiadom",
           "headsign": "NIEDOBCZYCE p. Niewiadom",
           "variants": 1,
           "tripCount": 124,
@@ -868,10 +994,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "RYBNICKA KUŹNIA p. Wielopole",
           "headsign": "RYBNICKA KUŹNIA p. Wielopole",
           "variants": 1,
-          "tripCount": 72,
+          "tripCount": 70,
           "stops": 31,
           "lengthKm": 21.09,
           "stats": {
@@ -887,6 +1013,27 @@
             "extStart": 0,
             "extEnd": 0
           }
+        },
+        {
+          "dir": "Rudzka Kampus",
+          "headsign": "Rudzka Kampus",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 3,
+          "lengthKm": 1.28,
+          "stats": {
+            "observations": 3,
+            "matched": 3,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 15.495764972522668,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
         }
       ]
     },
@@ -896,10 +1043,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
+          "dir": "GRABOWNIA p. Wielopole",
+          "headsign": "GRABOWNIA p. Wielopole",
           "variants": 1,
-          "tripCount": 144,
+          "tripCount": 84,
           "stops": 29,
           "lengthKm": 21.19,
           "stats": {
@@ -915,6 +1062,48 @@
             "extStart": 0,
             "extEnd": 0
           }
+        },
+        {
+          "dir": "ŚRÓDMIEŚCIE Dworzec Kolejowy",
+          "headsign": "ŚRÓDMIEŚCIE Dworzec Kolejowy",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 16,
+          "lengthKm": 12.18,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.0171280233384685,
+            "roundaboutSegs": 81,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŚRÓDMIEŚCIE Plac Wolności",
+          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
+          "variants": 1,
+          "tripCount": 50,
+          "stops": 18,
+          "lengthKm": 13.21,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.7687749174975105,
+            "roundaboutSegs": 81,
+            "extStart": 0,
+            "extEnd": 0
+          }
         }
       ]
     },
@@ -924,10 +1113,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "GRABOWNIA p. Wielopole, Ochojec",
+          "dir": "GRABOWNIA p. Golejów, Ochojec",
+          "headsign": "GRABOWNIA p. Golejów, Ochojec",
           "variants": 1,
-          "tripCount": 186,
+          "tripCount": 18,
           "stops": 41,
           "lengthKm": 30.49,
           "stats": {
@@ -939,6 +1128,69 @@
             "rawStretchCount": 0,
             "rawMeters": 0,
             "meanError": 7.507108891100456,
+            "roundaboutSegs": 287,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "GRABOWNIA p. Wielopole, Ochojec",
+          "headsign": "GRABOWNIA p. Wielopole, Ochojec",
+          "variants": 1,
+          "tripCount": 90,
+          "stops": 40,
+          "lengthKm": 29.71,
+          "stats": {
+            "observations": 40,
+            "matched": 40,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.538265590730482,
+            "roundaboutSegs": 271,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "OCHOJEC p. Wielopole",
+          "headsign": "OCHOJEC p. Wielopole",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 34,
+          "lengthKm": 24.72,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.2524498342775185,
+            "roundaboutSegs": 271,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "OCHOJEC p. Wielopole, Golejów",
+          "headsign": "OCHOJEC p. Wielopole, Golejów",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 35,
+          "lengthKm": 25.51,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.224201239314338,
             "roundaboutSegs": 287,
             "extStart": 0,
             "extEnd": 0
@@ -1001,7 +1253,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "GOTARTOWICE p. Paruszowiec Piaski",
           "headsign": "GOTARTOWICE p. Paruszowiec Piaski",
           "variants": 1,
           "tripCount": 146,
@@ -1029,7 +1281,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Leszczyny",
           "headsign": "Leszczyny",
           "variants": 1,
           "tripCount": 36,
@@ -1057,7 +1309,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "KSIĄŻENICE p. Kamień",
           "headsign": "KSIĄŻENICE p. Kamień",
           "variants": 1,
           "tripCount": 154,
@@ -1085,10 +1337,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "KAMIEŃ p. Ksiązenice",
           "headsign": "KAMIEŃ p. Ksiązenice",
           "variants": 1,
-          "tripCount": 84,
+          "tripCount": 36,
+          "stops": 28,
+          "lengthKm": 24.12,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.70164764497908,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "KAMIEŃ p. Książenice",
+          "headsign": "KAMIEŃ p. Książenice",
+          "variants": 1,
+          "tripCount": 48,
           "stops": 28,
           "lengthKm": 24.12,
           "stats": {
@@ -1113,7 +1386,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "POPIELÓW p. Radziejów",
           "headsign": "POPIELÓW p. Radziejów",
           "variants": 1,
           "tripCount": 70,
@@ -1484,10 +1757,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "BOGUSZOWICE p. Chwałowice",
           "headsign": "BOGUSZOWICE p. Chwałowice",
           "variants": 1,
-          "tripCount": 146,
+          "tripCount": 140,
           "stops": 28,
           "lengthKm": 20.5,
           "stats": {
@@ -1500,6 +1773,27 @@
             "rawMeters": 0,
             "meanError": 6.9010481238133785,
             "roundaboutSegs": 114,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŚRÓDMIEŚCIE Plac Wolności",
+          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 11,
+          "lengthKm": 8.06,
+          "stats": {
+            "observations": 11,
+            "matched": 11,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.975976787869205,
+            "roundaboutSegs": 55,
             "extStart": 0,
             "extEnd": 0
           }
@@ -1659,10 +1953,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Północ Wawok",
+          "headsign": "Północ Wawok",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 3,
+          "lengthKm": 1.45,
+          "stats": {
+            "observations": 3,
+            "matched": 3,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.189818913836172,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WIELOPOLE p. Rybnicką Kuźnię",
           "headsign": "WIELOPOLE p. Rybnicką Kuźnię",
           "variants": 1,
-          "tripCount": 60,
+          "tripCount": 58,
           "stops": 31,
           "lengthKm": 21.08,
           "stats": {
@@ -2030,10 +2345,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Dworzec Autobusowy",
+          "headsign": "Dworzec Autobusowy",
+          "variants": 1,
+          "tripCount": 103,
+          "stops": 15,
+          "lengthKm": 10.51,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.328820957110017,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PARUSZOWIEC PIASKI p. Ligotę, Gotartowice",
           "headsign": "PARUSZOWIEC PIASKI p. Ligotę, Gotartowice",
           "variants": 1,
-          "tripCount": 140,
+          "tripCount": 33,
           "stops": 26,
           "lengthKm": 18.66,
           "stats": {
@@ -2046,6 +2382,27 @@
             "rawMeters": 0,
             "meanError": 5.9295446998692976,
             "roundaboutSegs": 165,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŚRÓDMIEŚCIE Chrobrego",
+          "headsign": "ŚRÓDMIEŚCIE Chrobrego",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 12,
+          "lengthKm": 8.17,
+          "stats": {
+            "observations": 12,
+            "matched": 12,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.674889021026452,
+            "roundaboutSegs": 0,
             "extStart": 0,
             "extEnd": 0
           }
@@ -2107,7 +2464,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Wodzisław Dworzec Autobusowy",
           "headsign": "Wodzisław Dworzec Autobusowy",
           "variants": 9,
           "tripCount": 11,
@@ -2135,7 +2492,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Wodzisław Dworzec Autobusowy",
           "headsign": "Wodzisław Dworzec Autobusowy",
           "variants": 8,
           "tripCount": 16,
@@ -3437,7 +3794,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Chlebowa Pętla",
           "headsign": "Chlebowa Pętla",
           "variants": 1,
           "tripCount": 32,
@@ -3465,7 +3822,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Dworzec Arki Bożka",
           "headsign": "Dworzec Arki Bożka",
           "variants": 2,
           "tripCount": 13,
@@ -3542,7 +3899,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Dworzec Arki Bożka",
           "headsign": "Dworzec Arki Bożka",
           "variants": 2,
           "tripCount": 13,
@@ -3619,7 +3976,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Chlebowa Pętla",
           "headsign": "Chlebowa Pętla",
           "variants": 1,
           "tripCount": 26,
@@ -3794,7 +4151,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "KWK Pniówek",
           "headsign": "KWK Pniówek",
           "variants": 7,
           "tripCount": 12,
@@ -3822,9 +4179,9 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "Golasowice Pętla",
           "headsign": "Golasowice Pętla",
-          "variants": 7,
+          "variants": 2,
           "tripCount": 17,
           "stops": 16,
           "lengthKm": 12.05,
@@ -3840,6 +4197,48 @@
             "roundaboutSegs": 14,
             "extStart": 0,
             "extEnd": 0
+          }
+        },
+        {
+          "dir": "Pawłowice Centrum - TARG",
+          "headsign": "Pawłowice Centrum - TARG",
+          "variants": 3,
+          "tripCount": 17,
+          "stops": 16,
+          "lengthKm": 12.07,
+          "stats": {
+            "observations": 437,
+            "matched": 437,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.315001702794884,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Pawłowice Osiedle Liceum",
+          "headsign": "Pawłowice Osiedle Liceum",
+          "variants": 2,
+          "tripCount": 1,
+          "stops": 42,
+          "lengthKm": 33.78,
+          "stats": {
+            "observations": 1349,
+            "matched": 1349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.5907975101267846,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 226
           }
         }
       ]
@@ -4144,10 +4543,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "RYBNICKA KUŹNIA Chłodnie Pętla",
+          "dir": "NIEWIADOM p. Popielów, Niedobczyce, Radlin",
+          "headsign": "NIEWIADOM p. Popielów, Niedobczyce, Radlin",
           "variants": 1,
-          "tripCount": 12,
+          "tripCount": 8,
           "stops": 47,
           "lengthKm": 33.14,
           "stats": {
@@ -4163,6 +4562,27 @@
             "extStart": 0,
             "extEnd": 0
           }
+        },
+        {
+          "dir": "RYBNICKA KUŹNIA Chłodnie Pętla",
+          "headsign": "RYBNICKA KUŹNIA Chłodnie Pętla",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 10,
+          "lengthKm": 5.93,
+          "stats": {
+            "observations": 10,
+            "matched": 10,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.797654099598443,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
         }
       ]
     },
@@ -4172,10 +4592,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "BOGUSZOWICE p. Chwałowice",
           "headsign": "BOGUSZOWICE p. Chwałowice",
           "variants": 1,
-          "tripCount": 12,
+          "tripCount": 4,
+          "stops": 15,
+          "lengthKm": 11.47,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.107316069276477,
+            "roundaboutSegs": 42,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "MAROKO NOWINY p. Chwałowice, Plac Wolnosci",
+          "headsign": "MAROKO NOWINY p. Chwałowice, Plac Wolnosci",
+          "variants": 1,
+          "tripCount": 4,
           "stops": 39,
           "lengthKm": 30.09,
           "stats": {
@@ -4188,6 +4629,27 @@
             "rawMeters": 0,
             "meanError": 8.555058112370617,
             "roundaboutSegs": 215,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŚRÓDMIEŚCIE PLAC WOLNOŚCI p. Maroko Nowiny",
+          "headsign": "ŚRÓDMIEŚCIE PLAC WOLNOŚCI p. Maroko Nowiny",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 25,
+          "lengthKm": 18.64,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.665210711222882,
+            "roundaboutSegs": 173,
             "extStart": 0,
             "extEnd": 0
           }
@@ -4886,10 +5348,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "UCHYLSKO, WIEJSKA",
+          "headsign": "UCHYLSKO, WIEJSKA",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 17,
+          "lengthKm": 16.5,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.934764012813146,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "variants": 1,
-          "tripCount": 12,
+          "tripCount": 7,
           "stops": 17,
           "lengthKm": 16.47,
           "stats": {
@@ -4914,10 +5397,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "ODRA, GŁÓWNA PĘTLA",
           "headsign": "ODRA, GŁÓWNA PĘTLA",
           "variants": 1,
-          "tripCount": 34,
+          "tripCount": 18,
           "stops": 18,
           "lengthKm": 15.47,
           "stats": {
@@ -4933,6 +5416,27 @@
             "extStart": 0,
             "extEnd": 0
           }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 18,
+          "lengthKm": 15.41,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.698400135581661,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
         }
       ]
     },
@@ -4942,10 +5446,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "BLUSZCZÓW, POWSTAŃCÓW ŚRODKOWA",
+          "headsign": "BLUSZCZÓW, POWSTAŃCÓW ŚRODKOWA",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 17,
+          "lengthKm": 15.42,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.868922373599821,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "variants": 1,
-          "tripCount": 58,
+          "tripCount": 30,
           "stops": 17,
           "lengthKm": 15.42,
           "stats": {
@@ -4970,10 +5495,52 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "GOŁKOWICE, 1 MAJA KOŚCIÓŁ",
+          "headsign": "GOŁKOWICE, 1 MAJA KOŚCIÓŁ",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 23,
+          "lengthKm": 19.47,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.999135681649028,
+            "roundaboutSegs": 45,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "JASTRZĘBIE-ZDRÓJ, DWORZEC ARKI BOŻKA",
+          "headsign": "JASTRZĘBIE-ZDRÓJ, DWORZEC ARKI BOŻKA",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 42,
+          "lengthKm": 33.76,
+          "stats": {
+            "observations": 42,
+            "matched": 42,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.775628348824071,
+            "roundaboutSegs": 89,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, RYBNICKA DWORZEC KOLEJOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, RYBNICKA DWORZEC KOLEJOWY",
           "variants": 1,
-          "tripCount": 66,
+          "tripCount": 32,
           "stops": 42,
           "lengthKm": 33.76,
           "stats": {
@@ -4998,10 +5565,52 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "GODÓW, 1 MAJA DWORCOWA",
+          "headsign": "GODÓW, 1 MAJA DWORCOWA",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 18,
+          "lengthKm": 14.32,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.692146550726971,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "GOŁKOWICE, CELNA",
+          "headsign": "GOŁKOWICE, CELNA",
+          "variants": 1,
+          "tripCount": 27,
+          "stops": 23,
+          "lengthKm": 18.07,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.605045496646155,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "variants": 1,
-          "tripCount": 57,
+          "tripCount": 29,
           "stops": 23,
           "lengthKm": 17.95,
           "stats": {
@@ -5026,10 +5635,31 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "RACIBÓRZ, DWORZEC AUTOBUSOWY",
+          "headsign": "RACIBÓRZ, DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 31,
+          "lengthKm": 27.61,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.805657649908908,
+            "roundaboutSegs": 159,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "variants": 1,
-          "tripCount": 60,
+          "tripCount": 30,
           "stops": 31,
           "lengthKm": 27.25,
           "stats": {
@@ -5054,10 +5684,52 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "BUKÓW, GŁÓWNA OWOCOWA",
+          "headsign": "BUKÓW, GŁÓWNA OWOCOWA",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 25,
+          "lengthKm": 24.13,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.761226731074413,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "SYRYNIA, 3 MAJA",
+          "headsign": "SYRYNIA, 3 MAJA",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 16,
+          "lengthKm": 13.89,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.955113483625738,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "variants": 1,
-          "tripCount": 11,
+          "tripCount": 5,
           "stops": 26,
           "lengthKm": 23.9,
           "stats": {
@@ -5082,10 +5754,10 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "WODZISŁAW ŚLĄSKI, ROZWOJOWA",
+          "dir": "MSZANA, SKRZYSZOWSKA TARTAK",
+          "headsign": "MSZANA, SKRZYSZOWSKA TARTAK",
           "variants": 1,
-          "tripCount": 75,
+          "tripCount": 25,
           "stops": 25,
           "lengthKm": 15.58,
           "stats": {
@@ -5101,6 +5773,69 @@
             "extStart": 0,
             "extEnd": 0
           }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, GÓRNICZA SZYB",
+          "headsign": "WODZISŁAW ŚLĄSKI, GÓRNICZA SZYB",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 19,
+          "lengthKm": 11.47,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.92802271930289,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, ROZWOJOWA",
+          "headsign": "WODZISŁAW ŚLĄSKI, ROZWOJOWA",
+          "variants": 1,
+          "tripCount": 35,
+          "stops": 24,
+          "lengthKm": 15.74,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.7277493417389085,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW, ŚLĄSKI, WILCHWY PĘTLA",
+          "headsign": "WODZISŁAW, ŚLĄSKI, WILCHWY PĘTLA",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 24,
+          "lengthKm": 14.71,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.676022094900521,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
         }
       ]
     },
@@ -5110,10 +5845,52 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "PSZÓW, DWORZEC AUTOBUSOWY",
+          "headsign": "PSZÓW, DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 31,
+          "lengthKm": 19.03,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.318355881127487,
+            "roundaboutSegs": 72,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄŚKI, RADLIŃSKA REMIZA",
+          "headsign": "WODZISŁAW ŚLĄŚKI, RADLIŃSKA REMIZA",
+          "variants": 1,
+          "tripCount": 7,
+          "stops": 22,
+          "lengthKm": 12.96,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.197992849461491,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW, ŚLĄSKI, WILCHWY PĘTLA",
           "headsign": "WODZISŁAW, ŚLĄSKI, WILCHWY PĘTLA",
           "variants": 1,
-          "tripCount": 76,
+          "tripCount": 38,
           "stops": 31,
           "lengthKm": 19,
           "stats": {
@@ -5138,10 +5915,73 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "MARKLOWICE, DOLNE",
+          "headsign": "MARKLOWICE, DOLNE",
+          "variants": 1,
+          "tripCount": 27,
+          "stops": 31,
+          "lengthKm": 22.83,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.127523690962694,
+            "roundaboutSegs": 86,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, GÓRNICZA SZYB",
+          "headsign": "WODZISŁAW ŚLĄSKI, GÓRNICZA SZYB",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 6,
+          "lengthKm": 4.03,
+          "stats": {
+            "observations": 6,
+            "matched": 6,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.458776995681045,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, MARKLOWICKA DZIAŁKI",
+          "headsign": "WODZISŁAW ŚLĄSKI, MARKLOWICKA DZIAŁKI",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 29,
+          "lengthKm": 21.08,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.24729784399203,
+            "roundaboutSegs": 86,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, MŁODZIEŻOWA BOISKO",
           "headsign": "WODZISŁAW ŚLĄSKI, MŁODZIEŻOWA BOISKO",
           "variants": 1,
-          "tripCount": 77,
+          "tripCount": 35,
           "stops": 31,
           "lengthKm": 22.59,
           "stats": {
@@ -5157,6 +5997,69 @@
             "extStart": 0,
             "extEnd": 0
           }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 15,
+          "lengthKm": 8.5,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.708328867821559,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, WOLNOŚCI DZIAŁKI",
+          "headsign": "WODZISŁAW ŚLĄSKI, WOLNOŚCI DZIAŁKI",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 20,
+          "lengthKm": 12.79,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.232562381023752,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, WOLNOŚCI KOŚCIÓŁ",
+          "headsign": "WODZISŁAW ŚLĄSKI, WOLNOŚCI KOŚCIÓŁ",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 3,
+          "lengthKm": 1.83,
+          "stats": {
+            "observations": 3,
+            "matched": 3,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.558485951887437,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
         }
       ]
     },
@@ -5166,7 +6069,7 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
+          "dir": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "headsign": "WODZISŁAW ŚLĄSKI, TARGOWA DWORZEC AUTOBUSOWY",
           "variants": 1,
           "tripCount": 4,
@@ -5194,10 +6097,52 @@
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "WODZISŁAW ŚLĄŚKI, RADLIŃSKA REMIZA",
+          "dir": "MSZANA, MOSZCZEŃSKA MSZAŃSKIE GRANICE",
+          "headsign": "MSZANA, MOSZCZEŃSKA MSZAŃSKIE GRANICE",
           "variants": 1,
-          "tripCount": 53,
+          "tripCount": 24,
+          "stops": 34,
+          "lengthKm": 25.54,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.575501883335049,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "MSZANA, WODZISŁAWSKA SKRZYŻOWANIE",
+          "headsign": "MSZANA, WODZISŁAWSKA SKRZYŻOWANIE",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 33,
+          "lengthKm": 24.4,
+          "stats": {
+            "observations": 33,
+            "matched": 33,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.807264011236507,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "RYDUŁTOWY, PKP",
+          "headsign": "RYDUŁTOWY, PKP",
+          "variants": 1,
+          "tripCount": 8,
           "stops": 34,
           "lengthKm": 26.12,
           "stats": {
@@ -5210,6 +6155,48 @@
             "rawMeters": 0,
             "meanError": 6.49884434529627,
             "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄSKI, JASTRZĘBSKA BLAZY",
+          "headsign": "WODZISŁAW ŚLĄSKI, JASTRZĘBSKA BLAZY",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 30,
+          "lengthKm": 20.68,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.641551409518049,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "WODZISŁAW ŚLĄŚKI, RADLIŃSKA REMIZA",
+          "headsign": "WODZISŁAW ŚLĄŚKI, RADLIŃSKA REMIZA",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 21,
+          "lengthKm": 14.77,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.517087068427395,
+            "roundaboutSegs": 41,
             "extStart": 0,
             "extEnd": 0
           }
