@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:00:01.389Z",
+  "generatedAt": "2026-08-13T16:56:58.171Z",
   "bbox": [
     18.220926,
     49.871177,
@@ -36,6 +36,55 @@
     }
   ],
   "lines": [
+    {
+      "line": "1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADLIN p. Niewiadom",
+          "variants": 1,
+          "tripCount": 146,
+          "stops": 27,
+          "lengthKm": 18.82,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.987920936795486,
+            "roundaboutSegs": 100,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JEJKOWICE p. Niedobczyce",
+          "variants": 1,
+          "tripCount": 146,
+          "stops": 30,
+          "lengthKm": 19.94,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.403281592224873,
+            "roundaboutSegs": 83,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
     {
       "line": "01",
       "mode": "bus",
@@ -128,48 +177,48 @@
       ]
     },
     {
-      "line": "1",
+      "line": "2",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
           "dir": "0",
-          "headsign": "RADLIN p. Niewiadom",
+          "headsign": "MARKLOWICE p. Niedobczyce",
           "variants": 1,
-          "tripCount": 146,
-          "stops": 27,
-          "lengthKm": 18.82,
+          "tripCount": 54,
+          "stops": 29,
+          "lengthKm": 19.05,
           "stats": {
-            "observations": 27,
-            "matched": 27,
+            "observations": 29,
+            "matched": 29,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 11.987920936795486,
-            "roundaboutSegs": 100,
+            "meanError": 6.81139259531774,
+            "roundaboutSegs": 59,
             "extStart": 0,
             "extEnd": 0
           }
         },
         {
           "dir": "1",
-          "headsign": "JEJKOWICE p. Niedobczyce",
+          "headsign": "Dworzec Autobusowy",
           "variants": 1,
-          "tripCount": 146,
-          "stops": 30,
-          "lengthKm": 19.94,
+          "tripCount": 54,
+          "stops": 28,
+          "lengthKm": 18.69,
           "stats": {
-            "observations": 30,
-            "matched": 30,
+            "observations": 28,
+            "matched": 28,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 11.403281592224873,
-            "roundaboutSegs": 83,
+            "meanError": 8.395775917313395,
+            "roundaboutSegs": 80,
             "extStart": 0,
             "extEnd": 0
           }
@@ -268,48 +317,48 @@
       ]
     },
     {
-      "line": "2",
+      "line": "3",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
           "dir": "0",
-          "headsign": "MARKLOWICE p. Niedobczyce",
+          "headsign": "RADLIN p. Niedobczyce",
           "variants": 1,
-          "tripCount": 54,
-          "stops": 29,
-          "lengthKm": 19.05,
+          "tripCount": 268,
+          "stops": 22,
+          "lengthKm": 14.74,
           "stats": {
-            "observations": 29,
-            "matched": 29,
+            "observations": 22,
+            "matched": 22,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 6.81139259531774,
-            "roundaboutSegs": 59,
+            "meanError": 9.30740979973273,
+            "roundaboutSegs": 47,
             "extStart": 0,
             "extEnd": 0
           }
         },
         {
           "dir": "1",
-          "headsign": "Dworzec Autobusowy",
+          "headsign": "ORZEPOWICE p. Niedobczyce",
           "variants": 1,
-          "tripCount": 54,
-          "stops": 28,
-          "lengthKm": 18.69,
+          "tripCount": 264,
+          "stops": 23,
+          "lengthKm": 15.18,
           "stats": {
-            "observations": 28,
-            "matched": 28,
+            "observations": 23,
+            "matched": 23,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 8.395775917313395,
-            "roundaboutSegs": 80,
+            "meanError": 10.855300130271619,
+            "roundaboutSegs": 84,
             "extStart": 0,
             "extEnd": 0
           }
@@ -366,48 +415,27 @@
       ]
     },
     {
-      "line": "3",
+      "line": "4",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "RADLIN p. Niedobczyce",
+          "dir": "NIEWIADOM p. Niedobczyce",
+          "headsign": "NIEWIADOM p. Niedobczyce",
           "variants": 1,
-          "tripCount": 268,
-          "stops": 22,
-          "lengthKm": 14.74,
+          "tripCount": 118,
+          "stops": 33,
+          "lengthKm": 23.69,
           "stats": {
-            "observations": 22,
-            "matched": 22,
+            "observations": 33,
+            "matched": 33,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 9.30740979973273,
-            "roundaboutSegs": 47,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "ORZEPOWICE p. Niedobczyce",
-          "variants": 1,
-          "tripCount": 264,
-          "stops": 23,
-          "lengthKm": 15.18,
-          "stats": {
-            "observations": 23,
-            "matched": 23,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 10.855300130271619,
-            "roundaboutSegs": 84,
+            "meanError": 6.936952871423351,
+            "roundaboutSegs": 127,
             "extStart": 0,
             "extEnd": 0
           }
@@ -464,27 +492,27 @@
       ]
     },
     {
-      "line": "4",
+      "line": "5",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "NIEWIADOM p. Niedobczyce",
-          "headsign": "NIEWIADOM p. Niedobczyce",
+          "dir": "RADZIEJÓW p. Popielów",
+          "headsign": "RADZIEJÓW p. Popielów",
           "variants": 1,
-          "tripCount": 118,
-          "stops": 33,
-          "lengthKm": 23.69,
+          "tripCount": 64,
+          "stops": 26,
+          "lengthKm": 17.04,
           "stats": {
-            "observations": 33,
-            "matched": 33,
+            "observations": 26,
+            "matched": 26,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 6.936952871423351,
-            "roundaboutSegs": 127,
+            "meanError": 8.265379738137069,
+            "roundaboutSegs": 98,
             "extStart": 0,
             "extEnd": 0
           }
@@ -541,17 +569,38 @@
       ]
     },
     {
-      "line": "5",
+      "line": "6",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "RADZIEJÓW p. Popielów",
-          "headsign": "RADZIEJÓW p. Popielów",
+          "dir": "0",
+          "headsign": "RADLIN p. Popielów",
           "variants": 1,
-          "tripCount": 64,
+          "tripCount": 122,
+          "stops": 27,
+          "lengthKm": 18.2,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.64085257269748,
+            "roundaboutSegs": 74,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DWORZEC AUTOBUSOWY p. Orzepowice",
+          "variants": 1,
+          "tripCount": 126,
           "stops": 26,
-          "lengthKm": 17.04,
+          "lengthKm": 18.66,
           "stats": {
             "observations": 26,
             "matched": 26,
@@ -560,8 +609,8 @@
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 8.265379738137069,
-            "roundaboutSegs": 98,
+            "meanError": 9.761130457944327,
+            "roundaboutSegs": 99,
             "extStart": 0,
             "extEnd": 0
           }
@@ -618,48 +667,48 @@
       ]
     },
     {
-      "line": "6",
+      "line": "7",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
           "dir": "0",
-          "headsign": "RADLIN p. Popielów",
+          "headsign": "BUZOWICE p. Zamysłów",
           "variants": 1,
-          "tripCount": 122,
-          "stops": 27,
-          "lengthKm": 18.2,
+          "tripCount": 48,
+          "stops": 20,
+          "lengthKm": 14.77,
           "stats": {
-            "observations": 27,
-            "matched": 27,
+            "observations": 20,
+            "matched": 20,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 8.64085257269748,
-            "roundaboutSegs": 74,
+            "meanError": 8.176397222118924,
+            "roundaboutSegs": 94,
             "extStart": 0,
             "extEnd": 0
           }
         },
         {
           "dir": "1",
-          "headsign": "DWORZEC AUTOBUSOWY p. Orzepowice",
+          "headsign": "PÓŁNOC Kąpielisko Ruda",
           "variants": 1,
-          "tripCount": 126,
-          "stops": 26,
-          "lengthKm": 18.66,
+          "tripCount": 48,
+          "stops": 22,
+          "lengthKm": 15.1,
           "stats": {
-            "observations": 26,
-            "matched": 26,
+            "observations": 22,
+            "matched": 22,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 9.761130457944327,
-            "roundaboutSegs": 99,
+            "meanError": 9.212098546071934,
+            "roundaboutSegs": 39,
             "extStart": 0,
             "extEnd": 0
           }
@@ -716,48 +765,48 @@
       ]
     },
     {
-      "line": "7",
+      "line": "8",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
           "dir": "0",
-          "headsign": "BUZOWICE p. Zamysłów",
+          "headsign": "RYDUŁTOWY p. Radlin Głożyny",
           "variants": 1,
-          "tripCount": 48,
-          "stops": 20,
-          "lengthKm": 14.77,
+          "tripCount": 60,
+          "stops": 21,
+          "lengthKm": 14.39,
           "stats": {
-            "observations": 20,
-            "matched": 20,
+            "observations": 21,
+            "matched": 21,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 8.176397222118924,
-            "roundaboutSegs": 94,
+            "meanError": 10.269996301741353,
+            "roundaboutSegs": 71,
             "extStart": 0,
             "extEnd": 0
           }
         },
         {
           "dir": "1",
-          "headsign": "PÓŁNOC Kąpielisko Ruda",
+          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
           "variants": 1,
-          "tripCount": 48,
-          "stops": 22,
-          "lengthKm": 15.1,
+          "tripCount": 60,
+          "stops": 21,
+          "lengthKm": 14.73,
           "stats": {
-            "observations": 22,
-            "matched": 22,
+            "observations": 21,
+            "matched": 21,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 9.212098546071934,
-            "roundaboutSegs": 39,
+            "meanError": 9.794523084885952,
+            "roundaboutSegs": 58,
             "extStart": 0,
             "extEnd": 0
           }
@@ -814,48 +863,27 @@
       ]
     },
     {
-      "line": "8",
+      "line": "9",
       "mode": "bus",
       "color": "#0059a9",
       "dirs": [
         {
-          "dir": "0",
-          "headsign": "RYDUŁTOWY p. Radlin Głożyny",
+          "dir": "NIEDOBCZYCE p. Niewiadom",
+          "headsign": "NIEDOBCZYCE p. Niewiadom",
           "variants": 1,
-          "tripCount": 60,
-          "stops": 21,
-          "lengthKm": 14.39,
+          "tripCount": 124,
+          "stops": 31,
+          "lengthKm": 23.15,
           "stats": {
-            "observations": 21,
-            "matched": 21,
+            "observations": 31,
+            "matched": 31,
             "noCandidates": 0,
             "viterbiBreaks": 0,
             "bridged": 0,
             "rawStretchCount": 0,
             "rawMeters": 0,
-            "meanError": 10.269996301741353,
-            "roundaboutSegs": 71,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "ŚRÓDMIEŚCIE Plac Wolności",
-          "variants": 1,
-          "tripCount": 60,
-          "stops": 21,
-          "lengthKm": 14.73,
-          "stats": {
-            "observations": 21,
-            "matched": 21,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 9.794523084885952,
-            "roundaboutSegs": 58,
+            "meanError": 8.55089509662565,
+            "roundaboutSegs": 153,
             "extStart": 0,
             "extEnd": 0
           }
@@ -905,34 +933,6 @@
             "rawMeters": 0,
             "meanError": 2.7595946047965616,
             "roundaboutSegs": 53,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "9",
-      "mode": "bus",
-      "color": "#0059a9",
-      "dirs": [
-        {
-          "dir": "NIEDOBCZYCE p. Niewiadom",
-          "headsign": "NIEDOBCZYCE p. Niewiadom",
-          "variants": 1,
-          "tripCount": 124,
-          "stops": 31,
-          "lengthKm": 23.15,
-          "stats": {
-            "observations": 31,
-            "matched": 31,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 8.55089509662565,
-            "roundaboutSegs": 153,
             "extStart": 0,
             "extEnd": 0
           }
