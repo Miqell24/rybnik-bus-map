@@ -15,6 +15,27 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p data/gtfs-rybnik data/gtfs-zory data/gtfs-wodzislaw data/gtfs-jastrzebie data/osm web/vendor
 
+# A downloaded extract is only accepted if it PARSES and carries a plausible
+# number of elements. `grep -q '"elements"'` — the guard this family used
+# everywhere — passes on a truncated response too: Brașov's roads arrived as a
+# 65 kB fragment that still contained the string, was taken for complete, and
+# silently skipped the city (16.08.2026).
+# The floor is passed by the caller rather than shared, because it depends on
+# the extract: a road network runs to tens of thousands of ways, a city rail
+# network to a few hundred.
+# A rejected file is deleted rather than left behind — the `[ ! -f … ]` gate
+# below only asks whether the file exists, so a fragment on disk would be taken
+# for a finished download on the next run.
+ok_json () { # $1=file  $2=minimum element count
+  python3 - "$1" "$2" <<'PYEOF' 2>/dev/null
+import json, sys
+try:
+    sys.exit(0 if len(json.load(open(sys.argv[1])).get("elements", [])) >= int(sys.argv[2]) else 1)
+except Exception:
+    sys.exit(1)
+PYEOF
+}
+
 fetch_gtfs() { # dir url
   if [ ! -f "$1/routes.txt" ]; then
     echo "== GTFS $1 =="
@@ -40,11 +61,11 @@ if [ ! -f data/osm/rybnik.json ]; then
             "https://overpass.kumi.systems/api/interpreter"; do
     echo "-- $EP"
     if curl -fsS --max-time 600 -o data/osm/rybnik.json --data-urlencode "data=$Q" "$EP" \
-       && grep -q '"elements"' data/osm/rybnik.json; then
+       && ok_json "data/osm/rybnik.json" 2000; then
       ok=1; break
     fi
   done
-  [ "$ok" = 1 ] || { echo "Overpass: all mirrors failed" >&2; exit 1; }
+  [ "$ok" = 1 ] || { rm -f data/osm/rybnik.json; echo "Overpass: all mirrors failed" >&2; exit 1; }
 fi
 
 # MapLibre GL (vendored, no CDN at runtime)
