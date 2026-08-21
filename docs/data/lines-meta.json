@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T15:19:42.407Z",
+  "generatedAt": "2026-08-21T15:42:44.567Z",
   "maxSeparate": 4,
   "pitchRatio": 0.5,
   "palette": 66,
@@ -132,7 +132,7 @@
   "stats": {
     "chains": 1727,
     "bundles": 1072,
-    "strands": 25471,
+    "strands": 25473,
     "corridors": 655,
     "rows": 3717,
     "kmColoured": 1180,
