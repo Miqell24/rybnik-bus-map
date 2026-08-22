@@ -130,7 +130,12 @@ export const CONFIG = {
 
 // --key=value / --flag CLI overrides onto a deep copy of CONFIG
 export function applyCliOverrides(config, argv) {
-  const cfg = JSON.parse(JSON.stringify(config));
+  // NOT a JSON round-trip of the whole config: that silently dropped every
+  // feed FUNCTION (mapKey, groupOf, skipRoute) — depot runs and replacement
+  // lines came back in and the station grouping fell through to the fallback.
+  const { feeds, ...rest } = config;
+  const cfg = JSON.parse(JSON.stringify(rest));
+  cfg.feeds = feeds.map((f) => ({ ...f }));
   cfg.debug = false;
   for (const a of argv) {
     const m = a.match(/^--([\w-]+)(?:=(.*))?$/);
