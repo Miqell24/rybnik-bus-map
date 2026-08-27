@@ -7,7 +7,7 @@
 // layout. The /schematic/ page renders it so the topology (stations, corridors,
 // branches, shared segments) can be inspected before any octilinear
 // optimisation is switched on.
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { CONFIG, applyCliOverrides } from './config.mjs';
@@ -96,7 +96,33 @@ if (!cfg.graph) {
 // ---------- emit ----------
 mkdirSync(OUT, { recursive: true });
 const fc = (features) => ({ type: 'FeatureCollection', features });
+// Display labels: the diagram must say what the map says. The main pipeline
+// writes the number the city signs beside every key that carries a
+// pipeline-only prefix (the county's W), so this reads that table and applies
+// it to every printed string — the keys keep driving colour and grouping.
+const LBL = (() => {
+  try {
+    const m = JSON.parse(readFileSync(join(ROOT, 'data/out/meta.json'), 'utf8'));
+    return new Map((m.lines || []).filter((l) => l.label).map((l) => [l.line, l.label]));
+  } catch { return new Map(); }
+})();
+const relabel = (s, sep) => {
+  const out = [];
+  for (const k of s.split(sep)) {
+    const v = LBL.get(k) ?? k;
+    if (!out.includes(v)) out.push(v);
+  }
+  return out.join(sep);
+};
 const write = (name, data) => {
+  if (LBL.size && data.features) {
+    for (const f of data.features) {
+      const pr = f.properties;
+      if (typeof pr.text === 'string' && pr.text) pr.text = relabel(pr.text, pr.text.includes('\n') ? '\n' : ' ');
+      if (typeof pr.lines === 'string' && pr.lines) pr.lines = relabel(pr.lines, ' ');
+      if (typeof pr.tip === 'string' && pr.tip) pr.tip = relabel(pr.tip, ' ');
+    }
+  }
   writeFileSync(join(OUT, name), JSON.stringify(data));
   log(`wrote ${name}${data.features ? ` (${data.features.length} features)` : ''}`);
 };

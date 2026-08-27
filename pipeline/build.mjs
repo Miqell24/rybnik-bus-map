@@ -72,6 +72,12 @@ const busList = busArgs.filter((a) => a !== '--all');
 // the merged rep list flows through one matching/streets/badges pass — shared
 // corridors get a single stroke with the union of lines, exactly like a
 // single-operator city.
+// Display labels for line keys that carry a pipeline-only disambiguator.
+// The KEY has to stay unique — it drives route merging, colour lookup and
+// selection — but the map must print what the city prints. Filled while
+// re-keying, applied to the display strings just before writing.
+const LBL = new Map();
+
 const MODES = [{
   mode: 'bus', label: 'buses', osmFile: 'data/osm/rybnik.json',
   graphMode: 'road', color: '#0059a9', colorDark: '#00294f',
@@ -85,7 +91,11 @@ const MODES = [{
     // 41, 42, 51, 52 exist in BOTH networks as different physical lines) —
     // the map gives the powiat a W (Wodzisław) prefix. titleCase: this feed
     // ships every stop name ALL-CAPS ("WODZISŁAW ŚLĄSKI, TARGOWA…")
-    { tag: 'wod', dir: 'data/gtfs-wodzislaw', mapKey: (sn) => 'W' + sn, titleCase: true },
+    { tag: 'wod', dir: 'data/gtfs-wodzislaw', titleCase: true,
+      // the W is the KEY's, never the street's: the county signs a plain 32.
+      // Its numbers repeat KM Rybnik's, but the two networks share no roadway,
+      // so nothing prints twice — the panel groups the list by operator.
+      mapKey: (sn) => { const k = 'W' + sn; LBL.set(k, sn); return k; } },
     // the zbiorkom regional bundle also carries the Żory city lines (01–09
     // and ZL "Zielona Linia") — the official Żory feed above is the source of
     // truth for those, so the bundle's copies are dropped
@@ -860,6 +870,10 @@ async function processMode(cfg) {
   const metaLines = [...new Set(reps.map((r) => r.line))].sort(numSort).map((L) => ({
     line: L,
     mode: cfg.mode,
+    // Which network runs it. With the county's W gone from the printed number,
+    // the number's shape no longer says whose line it is (32 is both a KM
+    // Rybnik line and a county line), so the panel groups the list by this.
+    op: [...(keyFeeds.get(L) || [])].sort().join('+') || undefined,
     color: colorOf([L]),
     dirs: reps.filter((r) => r.line === L).map((r) => ({
       dir: r.dir, headsign: r.headsign, variants: r.variants, tripCount: r.tripCount,
@@ -1480,6 +1494,31 @@ for (const f of routeFeatures) for (const [lon, lat] of f.geometry.coordinates) 
   if (lat < bLatMin) bLatMin = lat; if (lat > bLatMax) bLatMax = lat;
 }
 
+// ---------- display labels ----------
+// The keys keep their prefixes; every string the map PRINTS loses them. Two
+// keys can now print the same number — that is the point, because the street
+// prints the same number — so each colour group is deduplicated on its own
+// (the groups ride in separate properties, so a green 9 and a navy 9 both
+// survive: there the colour is the difference).
+const relabel = (s) => {
+  const out = [];
+  for (const k of s.split(', ')) {
+    const v = LBL.get(k) ?? k;
+    if (!out.includes(v)) out.push(v);
+  }
+  return out.join(', ');
+};
+for (const features of [routeFeatures, streetFeatures, labelFeatures, stopFeatures, badgeFeatures]) {
+  for (const f of features) {
+    const p = f.properties;
+    for (const k of ['lines', 'busLines', 'tLines', 'ntLines', 'mLines', 'nmLines']) {
+      if (typeof p[k] === 'string' && p[k]) p[k] = relabel(p[k]);
+    }
+    if (typeof p.line === 'string' && LBL.has(p.line)) p.lbl = LBL.get(p.line);
+  }
+}
+log(`Display labels: ${LBL.size} keys print the number the city signs`);
+
 const outDir = join(ROOT, 'data/out');
 mkdirSync(outDir, { recursive: true });
 const fc = (features) => JSON.stringify({ type: 'FeatureCollection', features });
@@ -1495,6 +1534,8 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   bbox: [bLonMin, bLatMin, bLonMax, bLatMax],
   badgeBands: BADGE_BANDS,
   modes: MODES.map((m) => ({ mode: m.mode, label: m.label, color: m.color })),
-  lines: metaLines,
+  // the chips keep `line` as their value (selection matches keys) and print
+  // `label` where the city's number differs from the pipeline's key
+  lines: metaLines.map((l) => (LBL.has(l.line) ? { ...l, label: LBL.get(l.line) } : l)),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);
