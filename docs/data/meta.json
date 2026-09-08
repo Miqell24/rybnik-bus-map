@@ -4632,127 +4632,6 @@
       ]
     },
     {
-      "line": "N6",
-      "mode": "bus",
-      "op": "ryb",
-      "color": "#0059a9",
-      "dirs": [
-        {
-          "dir": "NIEWIADOM p. Popielów, Niedobczyce, Radlin",
-          "headsign": "NIEWIADOM p. Popielów, Niedobczyce, Radlin",
-          "variants": 1,
-          "tripCount": 8,
-          "stops": 47,
-          "lengthKm": 33.14,
-          "stats": {
-            "observations": 47,
-            "matched": 47,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 7.944915090197895,
-            "roundaboutSegs": 169,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "RYBNICKA KUŹNIA Chłodnie Pętla",
-          "headsign": "RYBNICKA KUŹNIA Chłodnie Pętla",
-          "variants": 1,
-          "tripCount": 4,
-          "stops": 10,
-          "lengthKm": 5.93,
-          "stats": {
-            "observations": 10,
-            "matched": 10,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 6.797654099598443,
-            "roundaboutSegs": 39,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "N8",
-      "mode": "bus",
-      "op": "ryb",
-      "color": "#0059a9",
-      "dirs": [
-        {
-          "dir": "BOGUSZOWICE p. Chwałowice",
-          "headsign": "BOGUSZOWICE p. Chwałowice",
-          "variants": 1,
-          "tripCount": 4,
-          "stops": 15,
-          "lengthKm": 11.47,
-          "stats": {
-            "observations": 15,
-            "matched": 15,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 6.107316069276477,
-            "roundaboutSegs": 42,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "MAROKO NOWINY p. Chwałowice, Plac Wolnosci",
-          "headsign": "MAROKO NOWINY p. Chwałowice, Plac Wolnosci",
-          "variants": 1,
-          "tripCount": 4,
-          "stops": 39,
-          "lengthKm": 30.09,
-          "stats": {
-            "observations": 39,
-            "matched": 39,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 8.555058112370617,
-            "roundaboutSegs": 215,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "ŚRÓDMIEŚCIE PLAC WOLNOŚCI p. Maroko Nowiny",
-          "headsign": "ŚRÓDMIEŚCIE PLAC WOLNOŚCI p. Maroko Nowiny",
-          "variants": 1,
-          "tripCount": 4,
-          "stops": 25,
-          "lengthKm": 18.64,
-          "stats": {
-            "observations": 25,
-            "matched": 25,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 9.665210711222882,
-            "roundaboutSegs": 173,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
       "line": "PR",
       "mode": "bus",
       "op": "ryb",
@@ -6386,6 +6265,129 @@
           }
         }
       ]
+    },
+    {
+      "line": "N6",
+      "mode": "bus",
+      "op": "ryb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "NIEWIADOM p. Popielów, Niedobczyce, Radlin",
+          "headsign": "NIEWIADOM p. Popielów, Niedobczyce, Radlin",
+          "variants": 1,
+          "tripCount": 8,
+          "stops": 47,
+          "lengthKm": 33.14,
+          "stats": {
+            "observations": 47,
+            "matched": 47,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.944915090197895,
+            "roundaboutSegs": 169,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "RYBNICKA KUŹNIA Chłodnie Pętla",
+          "headsign": "RYBNICKA KUŹNIA Chłodnie Pętla",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 10,
+          "lengthKm": 5.93,
+          "stats": {
+            "observations": 10,
+            "matched": 10,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.797654099598443,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "N8",
+      "mode": "bus",
+      "op": "ryb",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "BOGUSZOWICE p. Chwałowice",
+          "headsign": "BOGUSZOWICE p. Chwałowice",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 15,
+          "lengthKm": 11.47,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.107316069276477,
+            "roundaboutSegs": 42,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "MAROKO NOWINY p. Chwałowice, Plac Wolnosci",
+          "headsign": "MAROKO NOWINY p. Chwałowice, Plac Wolnosci",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 39,
+          "lengthKm": 30.09,
+          "stats": {
+            "observations": 39,
+            "matched": 39,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.555058112370617,
+            "roundaboutSegs": 215,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "ŚRÓDMIEŚCIE PLAC WOLNOŚCI p. Maroko Nowiny",
+          "headsign": "ŚRÓDMIEŚCIE PLAC WOLNOŚCI p. Maroko Nowiny",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 25,
+          "lengthKm": 18.64,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.665210711222882,
+            "roundaboutSegs": 173,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
     }
   ]
 }
